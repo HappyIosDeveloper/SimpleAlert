@@ -10,7 +10,7 @@ import UIkit
 
 extension UIViewController {
     
-    func simpleAlert(title: String = "Attention!", message: String) {
+    func simpleAlert(title: String = "Attention!",_ message: String) {
         let alertController = UIAlertController(title: title, message: "\n" + message, preferredStyle: .alert)
         let OKAction = UIAlertAction(title: "OK", style: .default, handler: nil)
         alertController.addAction(OKAction)
